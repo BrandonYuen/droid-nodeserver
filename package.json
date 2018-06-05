@@ -1,0 +1,27 @@
+{
+  "name": "droid-nodeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonYuen/droid-nodeserver.git"
+  },
+  "author": "Brandon Yuen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandonYuen/droid-nodeserver/issues"
+  },
+  "homepage": "https://github.com/BrandonYuen/droid-nodeserver#readme",
+  "dependencies": {
+    "bluetooth-serial-port": "^2.1.6",
+    "clarifai": "^2.7.1",
+    "express": "^4.16.3",
+    "file-on-write": "^1.1.1",
+    "mjpeg-camera": "^1.7.2",
+    "request": "^2.87.0"
+  }
+}
